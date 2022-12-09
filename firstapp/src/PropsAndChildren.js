@@ -29,4 +29,12 @@ function Pears(props) {
     )
     }
 
+/**
+ *  <div>
+       <Bag children={<Apple color="green" number="25" />} />
+       <Bag children={<Pears friends="Steve" />} />
+    </div>
+ */
+
+
 export {Apple,Bag,Pears}

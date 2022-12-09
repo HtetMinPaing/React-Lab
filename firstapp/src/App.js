@@ -1,14 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 
-import { Apple,Bag,Pears } from './PropsAndChildren';
+import { Header } from './components/Header';
+import { Nav } from './components/Nav';
 
 function App() {
   return (
-    <div>
-       <Bag children={<Apple color="green" number="25" />} />
-       <Bag children={<Pears friends="Steve" />} />
-    </div>
+    <html>
+      <header>
+        <Nav/>
+      </header>
+      <body>
+        <Header/>
+      </body>
+    </html>
   );
 }
 
