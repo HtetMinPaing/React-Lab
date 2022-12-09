@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Header from './Heading';
+import { Apple,Bag,Pears } from './PropsAndChildren';
 
 function App() {
   return (
-    <div className="App">
-      This is the starting code for "Your first component" ungraded lab
-      <Header/>
+    <div>
+       <Bag children={<Apple color="green" number="25" />} />
+       <Bag children={<Pears friends="Steve" />} />
     </div>
   );
 }
