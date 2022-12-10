@@ -1,18 +1,15 @@
 import './App.css';
 
-import { Header } from './components/Header';
-import { Nav } from './components/Nav';
+import { Example,Example2,Example3,Expression } from './Exercise/TernaryOperator';
 
 function App() {
   return (
-    <html>
-      <header>
-        <Nav/>
-      </header>
-      <body>
-        <Header/>
-      </body>
-    </html>
+    <div>
+      <Example/>
+      <Example2/>
+      <Example3/>
+      <Expression/>
+    </div>
   );
 }
 
