@@ -64,3 +64,11 @@ function Expression(){
     )
 }
 export {Example,Example2,Example3,Expression}
+/*
+    <div>
+      <Example/>
+      <Example2/>
+      <Example3/>
+      <Expression/>
+    </div>
+*/
