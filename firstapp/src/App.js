@@ -1,12 +1,10 @@
 import './App.css';
 
-import Btn from './Exercise/EventHandlingAndEmbeddedExpression';
+import Button from './Lab3Dynamicevents/Button';
 
 function App() {
   return (
-    <div>
-      <Btn/>
-    </div>
+    <Button/>
   );
 }
 
