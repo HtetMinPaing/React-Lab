@@ -1,10 +1,9 @@
 import './App.css';
-
-import Button from './Lab3Dynamicevents/Button';
+import Application from './Exercise/Chlid';
 
 function App() {
   return (
-    <Button/>
+    <Application/>
   );
 }
 
