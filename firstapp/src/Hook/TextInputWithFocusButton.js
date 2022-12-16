@@ -5,7 +5,6 @@ function TestInput(){
     const inputEl = useRef(null)
     const onButtonClick = () =>{
         inputEl.current.focus();
-        console.log(inputEl.current)
     }
 
     return(

@@ -1,10 +1,10 @@
 import './App.css';
+import { DarkMode } from './Hook/DarkMode';
 
-import TestInput from './Hook/TextInputWithFocusButton';
 
 function App() {
   return (
-    <TestInput/>
+    <DarkMode/>
   );
 }
 
