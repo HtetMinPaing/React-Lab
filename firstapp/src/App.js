@@ -1,9 +1,10 @@
 import './App.css';
-import Application from './Exercise/Chlid';
+
+import TestInput from './Hook/TextInputWithFocusButton';
 
 function App() {
   return (
-    <Application/>
+    <TestInput/>
   );
 }
 
