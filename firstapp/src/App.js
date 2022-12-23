@@ -1,14 +1,12 @@
 import './App.css';
-import MealsList from './ContentAPI/consumer/MealsList';
-import MealsProvider from './ContentAPI/provider/MealsProvider';
-import Counter from './ContentAPI/consumer/Counter';
+
+import Application from './Lab4ManagingState/Application';
 
 function App() {
   return (
-    <MealsProvider>
-      <MealsList/>
-      <Counter/>
-    </MealsProvider>
+    <div>
+      <Application/>
+    </div>
   );
 }
 
