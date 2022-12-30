@@ -3,6 +3,10 @@ import Contact from "./Contact"
 import Home from "./Home"
 import About from "./About"
 
+/*
+CSS file
+
+*/
 function Application (){
     return(
         <div>
