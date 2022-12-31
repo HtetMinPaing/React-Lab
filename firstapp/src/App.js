@@ -1,10 +1,11 @@
 import "./App.css";
-import Application from "./Lab5-The-navBar/Application";
+import {LoginoutButton,LoginoutButtonUpdate} from "./ConditionalComponents/LoginoutButton";
 
 function App() {
   return (
-    <Application/>
+    <LoginoutButtonUpdate isLoggedIn={false}/>
   );
 };
 
+/*set NODE_OPTIONS=--openssl-legacy-provider*/
 export default App;

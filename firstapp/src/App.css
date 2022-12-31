@@ -41,6 +41,10 @@
     font-size: 62.5%;
 }  */
 
+.button{
+  font-size: 2rem;
+}
+
 nav{
   display: flex;
   justify-content: center;
@@ -56,4 +60,8 @@ nav{
 
 .nav-item:hover{
   color: rgb(23, 24, 24);
+}
+
+h1{
+   margin: 0 10rem;
 }
