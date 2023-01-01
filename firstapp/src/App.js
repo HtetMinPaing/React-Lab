@@ -1,9 +1,10 @@
 import "./App.css";
-import {LoginoutButton,LoginoutButtonUpdate} from "./ConditionalComponents/LoginoutButton";
+import { MediaApp } from "./MediaPackages/Media";
 
 function App() {
+
   return (
-    <LoginoutButtonUpdate isLoggedIn={false}/>
+    <MediaApp/>
   );
 };
 
