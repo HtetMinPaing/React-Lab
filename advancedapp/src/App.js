@@ -1,5 +1,5 @@
 import "./App.css";
-import Application from "./Lab1/Application";
+import Application from "./Lab3-LighToDark/Application";
 
 function App() { 
   return ( 

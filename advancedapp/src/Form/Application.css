@@ -1,0 +1,15 @@
+
+.header{
+    font-size: 40px;
+}
+
+
+fieldset{
+    border: none;
+
+}
+
+button{
+    display: flex;
+    justify-content: center;
+}

@@ -8,3 +8,5 @@ npm install react-router-dom@6
 
 npm install react-player
 
+npm install react-scripts --save-dev
+
