@@ -1,5 +1,5 @@
-import "./App.css";
-import Application from "./Lab5-FetchData/Application";
+
+import Application from "./Lab7-RadioButtonGroup/Application";
 
 function App() { 
   return ( 
