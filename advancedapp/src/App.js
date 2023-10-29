@@ -1,5 +1,5 @@
 
-import Application from "./Lab7-RadioButtonGroup/Application";
+import Application from "./Lab8-ScrollerPosition/Application";
 
 function App() { 
   return ( 
